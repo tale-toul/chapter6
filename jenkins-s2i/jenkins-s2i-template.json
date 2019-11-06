@@ -154,7 +154,6 @@
         },
         "runPolicy": "Serial",
         "source": {
-          "dockerfile": "FROM openshift3/jenkins-2-rhel7\nUSER example",
           "git": {
             "uri": "${GIT_URL}",
             "ref": "${GITHUB_REF}"
