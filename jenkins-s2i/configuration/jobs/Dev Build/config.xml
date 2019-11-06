@@ -13,7 +13,7 @@
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
   <builders>
-    <com.openshift.jenkins.plugins.pipeline.OpenShiftBuilder plugin="openshift-pipeline@1.0.47">
+    <com.openshift.jenkins.plugins.pipeline.OpenShiftBuilder>
       <apiURL></apiURL>
       <namespace>dev</namespace>
       <authToken></authToken>
